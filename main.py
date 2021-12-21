@@ -41,6 +41,6 @@ experiment(Trapezium.calculateIntegral, segment, 0.01, "Метод Трапец�
 experiment(Trapezium.calculateIntegral, segment, 0.1, "Метод Трапеций")
 experiment(Trapezium.calculateIntegral, segment, 1, "Метод Трапеций")
 
-experimentNC(NewtonCotes.calculateIntegral, segment, 0.01, 5, "Метод Ньютона-Котеса")
-experimentNC(NewtonCotes.calculateIntegral, segment, 0.1, 5, "Метод Ньютона-Котеса")
-experimentNC(NewtonCotes.calculateIntegral, segment, 1, 5, "Метод Ньютона-Котеса")
+experimentNC(NewtonCotes.calculateIntegral, segment, 0.01, 3, "Метод Ньютона-Котеса")
+experimentNC(NewtonCotes.calculateIntegral, segment, 0.1, 3, "Метод Ньютона-Котеса")
+experimentNC(NewtonCotes.calculateIntegral, segment, 1, 3, "Метод Ньютона-Котеса")
