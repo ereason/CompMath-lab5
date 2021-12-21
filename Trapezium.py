@@ -10,5 +10,5 @@ def calculateIntegral(f, segment, step):
     sum = 0
     for i in range(len(segments) - 1):
         dh = h(segments[i], segments[i + 1])
-        sum += dh* (f(segments[i]) + f(segments[i + 1])) / 2.0
+        sum += dh * (f(segments[i]) + f(segments[i + 1])) / 2.0
     return sum
